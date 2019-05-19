@@ -1,0 +1,30 @@
+.zui-table {
+	width:80%;
+	margin-left:10%;
+	margin-top:3%;
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family:Arial,helvitica;
+}
+.zui-table thead th {
+    background-color: #F4DD7E;
+    border: solid 1px #DDEEEE;
+    color: #645D5D;
+    padding: 10px;
+    text-align: left;
+    text-shadow:none;
+}
+.zui-table tbody td {
+    border: solid 1px #DDEEEE;
+    color: #4D4D4D;
+    padding: 10px;
+    text-shadow: none;
+}
+.zui-table-highlight tbody tr:hover {
+    background-color: #CC9F08;
+}
+.zui-table-horizontal tbody td {
+    border-left: none;
+    border-right: none;
+}

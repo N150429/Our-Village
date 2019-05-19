@@ -1,0 +1,190 @@
+body{
+    background-image: url(1.jpg);
+    background-attachment: fixed; 
+    margin:0px;
+}
+#screen{
+    width:100%;
+    height:100%;
+    
+}
+.title{
+    width:100%;
+    height:15%;
+    background-color:#778899;
+    opacity: .6;
+    margin: -20px 0px 0px 0px;
+    text-align: center;
+    padding-top: 20px;
+    color:white;
+    border-bottom:2px solid black;
+}
+#content{
+    width:100%;
+    height:auto;
+    margin-top:-40px;
+}
+#school{
+    width:60%;
+    height:70%;
+    margin:40px 0px 0px 20px;
+    padding:40px 0px 0px 20px;
+    float:left;
+}
+#school_photo{
+    width:800px;
+    height: 400px;
+    border:1px solid black;
+}
+#information{
+    width:25%;
+    height:65%;
+    background-color:#FFE4E1;
+    float:left;
+    margin:80px 0px 0px 65px;
+    border-radius: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color:magenta;
+}
+ul{
+    list-style: none;
+}
+ul li {
+    font-size:22px;
+    display: inline-block;
+    padding:10px;
+    color:#330033; 
+    transition: 5s linear;
+}   
+
+ul li:hover{
+    text-decoration: underline;
+    color:blue;
+}
+
+.h{
+    font-size:40px;
+    color:marron;
+    text-align:center;
+    padding-left:-10px;
+    text-decoration: underline;
+}
+.h:hover{
+    color: 	#A52A2A;
+    
+}
+#roads_gallery{
+    width:80%;
+    border-radius:10px;
+    background-color: #618685;
+    margin:40px 0px 0px 80px;
+    padding: 40px 0px 0px 50px;
+    float: left;
+    
+}
+.roads_image{
+    padding:15px;
+    border-radius:0%;
+    border:2px solid forestgreen;
+    width:400px;
+    height:400px;
+    margin:20px 0px 0px 10px;
+    background-color:#A3F3E8;
+}
+.roads_image:hover{
+    background-color:#6AF1AE;
+    border-color: blue;
+}
+
+#student_div{
+    width:80%;
+    height:145%;
+    border-radius:10px;
+    background-color:#FFE4C4;
+    margin:100px 0px 0px 80px;
+    padding: 60px 0px 0px 60px;
+    float:left;
+    
+}
+.student_image{
+    padding:15px;
+    border:2px solid #A0522D;
+    width:300px;
+    height:200px;
+    margin:20px 0px 0px 10px;
+    background-color: #d9ad7c;
+}
+
+#student_div img:hover{
+    border:2px solid black;
+    cursor: pointer;
+    background-color:#AFEEEE;
+}
+
+
+#meals{
+    width:80%;
+    height:145%;
+    border-radius:10px;
+    background-color: #e4d1d1;
+    margin:100px 0px 0px 80px;
+    padding: 60px 0px 0px 50px;
+    float: left;
+}
+.meals_image{
+    padding:15px;
+    border:2px solid #800080;
+    width:300px;
+    height:200px;
+    margin:20px 0px 0px 10px;
+    background-color: #DDA0DD;
+    
+}
+
+#meals img:hover{
+    border:2px solid black;
+    cursor: pointer;
+    background-color: #AFEEEE;
+}
+
+
+#sports{
+    width:80%;
+    height:145%;
+    border-radius:10px;
+    background-color: #90EE90;
+    margin:100px 0px 0px 80px;
+    padding: 60px 0px 0px 50px;
+    float: left;
+
+}
+
+
+.sports_image{
+    padding:15px;
+    border:2px solid #BC8F8F;
+    width:300px;
+    height:200px;
+    margin:20px 0px 0px 10px;
+    background-color: #FFFFE0;
+    
+}
+#sports img:hover{
+    border:2px solid black;
+    cursor: pointer;
+    background-color: #AFEEEE;
+}
+.cross{
+    color:black;
+    float:right;
+    margin:-35px 15px 0px -10px;
+    background-color:cadetblue;
+    padding:3px 8px;
+}
+.cross:hover{
+    background-color: #778899;
+    padding:3px 8px;
+}

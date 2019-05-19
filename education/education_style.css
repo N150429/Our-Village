@@ -1,0 +1,455 @@
+body{
+    background-image: url("photos/backgroundimg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#screen{
+    width:100%;
+    height:100%;
+    margin-top:-7px;
+    overflow-x: hidden;
+    
+}
+#logo{
+    
+    width:100%;
+    height: 20%;
+    background-image:url("photos/back.jpg");
+    border-radius:10px;
+}
+#logoimg{
+    width:100px;
+    height: 110px;
+    padding:0px 0px 0px 40px;
+    float:left;
+}
+#web_title{
+    font-size:50px;
+    color:#FFFFFF;
+    float:left;
+    margin:37px 0px 0px 200px;
+}
+
+
+
+#navigation_bar{
+    width:100%;
+    height:9%;
+    margin-top: -14px;
+    margin-left: 0px;
+    background-color:  #26267D;
+    border-bottom: 2px solid black;
+    
+}
+#navigation_bar ul{
+    list-style: none;
+    margin-left: 60px;
+   
+    
+}
+
+#navigation_bar ul li{
+    float: left;
+    height: 40px;
+    font-size: 22px;
+    padding:4px 20px ;
+    line-height:40px;
+    display:block;
+    
+}
+
+#navigation_bar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 22px;
+    font-family: "Times New Roman", Georgia, Serif;
+    line-height: 20px;
+    
+    
+}
+
+#navigation_bar ul li:hover{
+    background-color: #000066 ;
+    border-bottom: 6px solid orange;
+    font-size: 22px;
+    
+}
+
+#content{
+    width:100%;
+    height:100% ;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+/*------- image sliders--------*/
+
+
+
+        .slider
+        {
+            overflow:hidden;
+            width:50%;
+            height:55%;
+            float:left;
+            margin:50px 50px 0px 50px;
+            border:6px solid #FFEBA3;
+            
+        }
+        .slider figure div
+        {
+            float:left;
+            width:20%;
+        }
+        .slider figure img
+        {
+            width:100%;
+            float:left;
+            height:500px;
+        }
+        .slider figure
+        {
+            position:relative;
+            width:500%;
+            margin:0px;
+            left:0;
+            animation:sliding 20s infinite;
+        }
+        @keyframes sliding
+        {
+            0%
+            {
+                left:0%;
+                
+            }
+            10%
+            {
+                left:0%
+            }
+            12%
+            {
+                left:-100%;
+            }
+            22%
+            {
+                left:-100%;
+            }
+            24%
+            {
+                left:-200%;
+            }
+            34%
+            {
+                left:-200%;
+            }
+            36%
+            {
+                left: -300%;
+            }
+            46%
+            {
+                left:-300%;
+            }
+            48%
+            {
+                left:-400%;
+            }
+            58%
+            {
+                left:-400%;
+            }
+            60%
+            {
+                left:-300%;
+            }
+            70%
+            {
+                left:-300%;
+            }
+            72%
+            {
+                left:-200%
+            }
+            82%
+            {
+                lefT:-200%;
+            }
+            84%
+            {
+                lefT:-100%;
+            }
+            94%
+            {
+                left:-100%;
+            }
+            96%
+            {
+                left:0%;
+                
+            }
+            100%
+            {
+                left:0%;
+            }
+        }
+     
+
+
+
+
+
+
+
+
+
+#notifications{
+    width:35%;
+    height:55%;
+    background: linear-gradient(to bottom, lightgreen 9%, lightskyblue 88%);
+    float:right;
+    margin:50px 50px 0px 10px;
+    border-radius: 15px;
+    
+}
+
+#notifications ul{
+    list-style:none;
+}
+
+#notifications ul li{
+    width:90%;
+    padding:8px;
+    cursor: pointer;
+    font-size:20px
+    
+}
+
+#notifications ul li a{
+    color:black;
+    font-style: bold;
+}
+h2{
+    text-align: center;
+}
+#notifications ul li:hover{
+    cursor: pointer;
+}
+
+#notifications ul li a:hover{
+    color:maroon;
+    text-decoration:underline;
+    font-size:20px;
+}
+
+
+
+
+#teacher_gallery{
+    width:90%;
+    height:110%;
+    border-radius:10px;
+    background-image: url("photos/div4.jpg");
+    margin:40px 0px 0px 50px;
+    padding: 40px 0px 0px 50px;
+    float: left;
+    
+}
+.teacher_image{
+    padding:5px;
+    border-radius: 50%;
+    border:2px solid forestgreen;
+    width:200px;
+    height:200px;
+    margin:25px 0px 0px 75px;
+    background-color:white;
+}
+.teacher_image:hover{
+    background-color:goldenrod;
+    border-color:white;
+    
+}
+
+#student_gallery{
+    background-image: url("photos/div2.jpg");
+    width:90%;
+    height:155%;
+    border-radius:10px;
+    background-color:#FFE4C4;
+    margin:100px 0px 0px 50px;
+    padding: 60px 0px 0px 60px;
+    float:left;
+    
+}
+
+.student_image{
+    padding:5px;
+    border:2px solid #BC8F8F;
+    width:330px;
+    height:220px;
+    margin:10px;
+    background-color: #FFFFE0;
+}
+
+#student_gallery img:hover{
+    border:2px solid black;
+    cursor: pointer;
+    background-color:dodgerblue;
+    transform: rotatey(180deg);
+    transition: 3s,transform 1s linear;
+}
+
+
+#meals{
+    background-image: url("photos/div3.jpg");
+    width:90%;
+    height:155%;
+    border-radius:10px;
+    background-color: #e4d1d1;
+    margin:100px 0px 0px 50px;
+    padding: 60px 0px 0px 50px;
+    float: left;
+}
+.meals_image{
+    padding:5px;
+    border:2px solid #BC8F8F;
+    width:330px;
+    height:220px;
+    margin:10px;
+    background-color: #FFFFE0;
+    
+}
+
+#meals img:hover{
+    border:2px solid black;
+    cursor: pointer;
+    background-color:dodgerblue;
+    transform: rotate(360deg);
+    transition: 2s,transform 2s linear;
+}
+
+
+#sports_gallery{
+    width:90%;
+    height:155%;
+    border-radius:10px;
+    background-color: #FFC2AB;
+    margin:90px 0px 0px 50px;
+    padding: 50px 0px 0px 50px;
+    float: left;
+    border:1px solid black;
+    background-image: url("photos/div1.jpg")
+
+}
+
+
+.sports_image{
+    padding:5px;
+    border:2px solid #BC8F8F;
+    width:330px;
+    height:220px;
+    margin:10px;
+    background-color: #FFFFE0;
+    
+}
+#sports_gallery img:hover{
+    border:2px solid black;
+    cursor: pointer;
+    background-color: dodgerblue;
+}
+
+.h{
+    text-align: center;
+    padding-top:-5px;
+}
+
+#up{
+    float: right;
+    width:50px;
+    height:50px;
+    background-color:white;
+    border:1px solid red;
+    border-radius: 20px;
+    margin-top:-45px;
+    
+}
+
+#up:hover{
+    background-color: magenta;
+}
+#up img{    
+    width:50px;
+    height:50px;
+
+    
+    
+}
+
+
+
+
+#footer{
+    width:100%;
+    height:30%;
+    background-color:#666666;
+    border-radius:5px;
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+    
+}
+
+
+#footer{
+       
+    
+}
+
+
+
+#footer ul{
+    list-style: none;
+    padding-left:20px;
+}
+
+#footer ul li {
+    
+    display:inline-block;
+    border-left:1px solid white;
+    border-right:1px solid white;
+    font-size:16px;
+    padding:0px 60px;
+    line-height: 40px;
+    background-color: #BDFFDE;
+}
+
+
+#footer ul li a{
+    font-size: 20px;
+    color:black;
+}
+
+
+#footer ul li:hover{
+    background-color: #2FC1B7;
+    cursor: pointer;
+    
+    
+}
+
+#copyrights{
+    width:100%;
+    height:60%;
+    float: left;
+    color:white;
+    padding-left: 20px;
+}
+
+
+

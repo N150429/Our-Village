@@ -1,0 +1,48 @@
+<html>
+<head>
+    <style>
+        body
+        {
+            background:#031426;
+        }
+.circlemeasure
+        {
+            position: relative;
+            width:200px;
+            height:200px;
+            top:20%;
+            left:35%;
+            
+        }
+        .circleperson
+        {
+            width:100%;
+            height:100%;
+            border:3px solid white;
+            border-radius:100%;
+            border-color:red lawngreen blue orchid;
+            animation:rotateimgborder 5s infinite;
+            background:url('sportspersons/viratkohli.jpg');
+            background-repeat: no-repeat;
+            
+        
+        }
+        @keyframes rotateimgborder
+        {
+            0%
+            {
+                transform: rotate(0deg);
+            }
+            100%
+            {
+                transform:rotate(360deg)
+            }
+        }
+        </style>
+    </head>
+     <body>
+        <div class='circlemeasure'>
+        <div class='circleperson'></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+
+#roads_gallery{
+    width:80%;
+    border-radius:10px;
+    background-color:#F0F0F1;
+    margin:40px 0px 0px 80px;
+    padding: 40px 0px 0px 50px;
+    float: left;
+    
+}
+.roads_image{
+    padding:15px;
+    border-radius:0%;
+    border:2px solid forestgreen;
+    width:450px;
+    height:400px;
+    margin:20px 0px 0px 10px;
+    background-color:;
+}
+.roads_image:hover{
+    background-color:#FFFFFF;
+    border-color: #4D4D4D;
+}
+
+#student_div{
+    width:80%;
+    height:145%;
+    border-radius:10px;
+    background-color:#E6E6FA;
+    margin:100px 0px 0px 80px;
+    padding: 60px 0px 0px 60px;
+    float:left;
+    
+}
+.student_image{
+    padding:15px;
+    border:2px solid #A0522D;
+    width:450px;
+    height:300px;
+    margin:20px 0px 0px 10px;
+    background-color: #E6E6FA;
+}
+
+#student_div img:hover{
+    border:2px solid black;
+    cursor: pointer;
+    background-color:#D8FBF9;
+}
